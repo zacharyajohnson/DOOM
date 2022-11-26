@@ -35,10 +35,15 @@ int
 main
 ( int		argc,
   char**	argv ) 
-{ 
+{
+    // Takes argument count
+    // argument values and stuffs
+    // them into variables found in
+    // m_argv.h
     myargc = argc; 
     myargv = argv; 
- 
+
+    // Calls the main Doom loop found in d_main.h/c
     D_DoomMain (); 
 
     return 0;

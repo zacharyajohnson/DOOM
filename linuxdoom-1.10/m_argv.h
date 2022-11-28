@@ -19,24 +19,17 @@
 //    
 //-----------------------------------------------------------------------------
 
-
 #ifndef __M_ARGV__
 #define __M_ARGV__
 
-//
-// MISC
-//
+// Stores the arg count passed into the program
 extern  int	myargc;
+// Stores an array of arg values passed into the program
 extern  char**	myargv;
 
 // Returns the position of the given parameter
+// in the myargv array
 // in the arg list (0 if not found).
 int M_CheckParm (char* check);
 
-
 #endif
-//-----------------------------------------------------------------------------
-//
-// $Log:$
-//
-//-----------------------------------------------------------------------------
